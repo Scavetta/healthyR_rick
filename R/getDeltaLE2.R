@@ -12,7 +12,8 @@
 #' @examples
 getDeltaLE2 <- function(gap_country){
   base::stopifnot(is.character(gap_country),
-                  length(gap_country) == 1)
+                  length(gap_country) == 1,
+                  gap_country %in% gapminder::gapminder$country)
 
   exp2007 <- gapminder::gapminder %>%
     dplyr::filter(.data$country == gap_country, .data$year == 2007) %>%
