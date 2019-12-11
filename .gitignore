@@ -41,3 +41,6 @@ vignettes/*.pdf
 # Apple stuff
 .DS_Store
 .Rproj.user
+
+# our practice space
+practice/
