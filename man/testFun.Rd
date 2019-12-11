@@ -15,3 +15,6 @@ factor
 \description{
 Create a factor vector of n elements, labeled A and B.
 }
+\examples{
+testFun(76)
+}

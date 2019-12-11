@@ -8,11 +8,12 @@
 #' @export
 #'
 #' @examples
+#' testFun(76)
 testFun <- function(n) {
-  base::factor(
-    base::sample(
+  factor(
+    sample(
       0:1, n, TRUE
     ),
-    labels = base::LETTERS[1:2]
+    labels = LETTERS[1:2]
   )
 }
